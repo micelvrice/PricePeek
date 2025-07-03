@@ -19,6 +19,9 @@ A lightweight tool to retrieve the current **average price** of a product using 
 
 Register and get your token from [https://www.priceapi.com/](https://www.priceapi.com/).
 
+### 2. Insert your API token
+https://github.com/micelvrice/PricePeek/blob/bdc046a1d8089a563f952497bb9b75b0f7ff4610/get_average_price.py#L162
+https://github.com/micelvrice/PricePeek/blob/bdc046a1d8089a563f952497bb9b75b0f7ff4610/get_average_price.sh#L11
 ---
 
 ### 2. Python Version
@@ -28,7 +31,7 @@ Register and get your token from [https://www.priceapi.com/](https://www.priceap
 ```bash
 pip install requests
 
-python fetch_price.py "iPhone 15"
+python get_average_price.py "iPhone 15"
 
 ### 3. Shell Version
-bash fetch_price.sh "iPhone 15" YOUR_API_TOKEN
+bash get_average_price.sh "iPhone 15"
