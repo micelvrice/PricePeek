@@ -26,11 +26,6 @@ https://github.com/micelvrice/PricePeek/blob/bdc046a1d8089a563f952497bb9b75b0f7f
 
 ### 2. Python Version
 
-#### 🔧 Install dependencies
-
-```bash
-pip install requests
-
 python get_average_price.py "iPhone 15"
 
 ### 3. Shell Version
